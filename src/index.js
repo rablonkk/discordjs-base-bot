@@ -9,6 +9,7 @@ const client = new Client({
 		GatewayIntentBits.GuildVoiceStates,
 		GatewayIntentBits.GuildMessageReactions,
 	],
+	allowedMentions: { parse: ['users'] },
 });
 
 process.on('unhandledRejection', async (error) => {

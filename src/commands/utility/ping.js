@@ -1,10 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
-	/**
-     * Slash command data for the ping command.
-     * @type {import('discord.js').SlashCommandBuilder}
-     */
 	data: new SlashCommandBuilder()
 		.setName('ping')
 		.setDescription('See API Latency.'),
