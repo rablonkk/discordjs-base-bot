@@ -11,8 +11,13 @@ const client = new Client({
 	],
 });
 
-process.on('unhandledRejection', async (error) => { console.log('[unhandledRejection] ', error); });
-process.on('uncaughtException', async (error) => { console.log('[uncaughtException] ', error.message); });
+process.on('unhandledRejection', async (error) => {
+	console.log('[unhandledRejection] ', error);
+});
+
+process.on('uncaughtException', async (error) => {
+	console.log('[uncaughtException] ', error.message);
+});
 
 /**
  * Collection of commands for the bot.
