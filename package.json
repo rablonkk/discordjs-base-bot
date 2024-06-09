@@ -1,0 +1,22 @@
+{
+  "name": "discordjs-bot-base",
+  "version": "1.0.0",
+  "description": "just a simple music bot for discord",
+  "homepage": "https://nyxrobot.site",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint . --fix"
+  },
+  "author": "rablonkk (https://github.com/rablonkk)",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^9.4.0",
+    "nodemon": "^3.1.3"
+  }
+}
